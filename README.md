@@ -41,11 +41,11 @@ When we extract information from given data for movies, we use this data to crea
 
 # Stage 2
 In this stage, it is expected to guess movies genre or genres based on the movies given in film folder.
-# Step 1: Getting Unique Words Without Stop Words 
+## Step 1: Getting Unique Words Without Stop Words 
 Firstly, We extract unique words for all genres by taking movies genres and their review data, then make stop word elimination by stop word list which are taken stopwords.txt. 
-# Step 2: Guess Genres of Movies 
+## Step 2: Guess Genres of Movies 
 In this step, we read the movie reviews from the filmGuess folder and implement step1 for getting unique words. 
 After getting words, if the intersection of words of movie and genres words is higher or equal 20, we remark the genre for the movie. 
-# Step 3: Write to File 
+## Step 3: Write to File 
 After getting genre or genres for the all movie in the filmGuess folder, we write the film names and genres to filmGenre.txt 
 
